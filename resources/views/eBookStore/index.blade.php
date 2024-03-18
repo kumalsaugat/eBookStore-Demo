@@ -19,7 +19,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -107,7 +107,7 @@
                 </a>
                 <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
                     <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-                        <div class="nav-item dropdown">
+                        {{-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-toggle="dropdown">Religion & Spirituality <i class="fa fa-angle-down float-right mt-1"></i></a>
                             <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
                             @foreach($religionSpirituality as $religionCategory)
@@ -125,7 +125,7 @@
                         </div>
                         @foreach($remainCategories as $remainCategory)
                         <a href="" class="nav-item nav-link">{{ $remainCategory -> name }}</a>
-                        @endforeach
+                        @endforeach --}}
                     </div>
                 </nav>
             </div>
@@ -317,23 +317,23 @@
     <!-- Highly Recomended Books end -->
 
     <!--Top 10 Coming Soon -->
-    
-    <div class="lovedBooks">
+
+    {{-- <div class="lovedBooks">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Top 10 Coming Soon Books</span></h2>
         </div>
         @foreach($top10ComingSoonBooks as $book)
-        <div class="books"> 
+        <div class="books">
             <a href="#"> <img src="{{ asset($book -> image) }}" alt="book1" height="230px" width="250px"> </a>
             <div class="description"> {{ $book -> description }} </div>
         </div>
         @endforeach()
-    </div>
+    </div> --}}
 
     <!-- End Top 10 Coming Soon -->
 
     <!-- Products Start (Mystery & Thriller Books)-->
-    <div class="container-fluid pt-5" id="">
+    {{-- <div class="container-fluid pt-5" id="">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Mystery & Thriller Books</span></h2>
         </div>
@@ -377,7 +377,7 @@
             </div>
             @endforeach
         </div>
-    </div>
+    </div> --}}
     <!-- Products End (Mystery & Thriller Books)-->
 
     <!-- Offer Start -->
@@ -438,7 +438,7 @@
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Religion & Spirituality Books</span></h2>
         </div>
-        <div class="row px-3 pb-3">
+        {{-- <div class="row px-3 pb-3">
             @foreach( $buddhismBooks as $book)
             <div class="col-lg-2 col-md-4 col-sm-6 pb-1">
                 <div class="card product-item border-0 mb-4" style="max-width: 200px;">
@@ -515,7 +515,7 @@
                 </div>
             </div>
             @endforeach
-        </div>
+        </div> --}}
     </div>
 <!-- Products End ( Religion & Spirituality Books)-->
 
@@ -524,7 +524,7 @@
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">History & Biography Books</span></h2>
         </div>
-        <div class="row px-3 pb-3">
+        {{-- <div class="row px-3 pb-3">
             @foreach($historyBiographyBooks as $book)
             <div class="col-lg-2 col-md-4 col-sm-6 pb-1">
                 <div class="card product-item border-0 mb-4" style="max-width: 200px;">
@@ -544,12 +544,12 @@
                 </div>
             </div>
             @endforeach
-        </div>
+        </div> --}}
     </div>
 <!-- Products End ( History & Biography Books)-->
 
 <!-- Products Start ( Kid's & Teens Books)-->
-    <div class="container-fluid pt-5" id="Kids-Teens">
+    {{-- <div class="container-fluid pt-5" id="Kids-Teens">
         <div class="text-center mb-4">
             <h2 class="section-title px-5"><span class="px-2">Kid's & Teens Books</span></h2>
         </div>
@@ -574,12 +574,12 @@
             </div>
             @endforeach
         </div>
-    </div>
+    </div> --}}
 <!-- Products End ( Kid's & Teens Books)-->
 
     <!-- Vendor Start -->
     <div class="container-fluid py-5">
-        <div class="row px-xl-5">
+        {{-- <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
                     <div class="vendor-item border p-4">
@@ -608,7 +608,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
     <!-- Vendor End -->
 
