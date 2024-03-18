@@ -32,12 +32,4 @@ class RegisterController extends Controller
             return back()->with('fail','Error occurred !!!');
         }
     }
-
-    // public function logout()
-    // {
-    //     Session::flush();
-    //     Auth::logout();
-    //     return redirect('/Home');
-    // }
-
 }
